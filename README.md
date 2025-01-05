@@ -1,126 +1,53 @@
-#Department of Justice (DoJ) Chatbot
+**Department of Justice (DoJ) Chatbot**
 
-Project Overview
+**Project Overview**
 
 This project entails the development of an AI-powered interactive chatbot tailored for the Department of Justice (DoJ), India. The chatbot is engineered to deliver precise and accessible information related to judicial functions, case statuses, legal aid, and associated services. Designed to enhance the user experience on the DoJ website, the chatbot is capable of comprehensively addressing queries and expanding its capabilities with iterative updates.
 
-Problem Statement
+**Problem Statement**
 
-Title: Developing an AI-based Interactive Chatbot for the Department of Justice Website.
+**Title:** Developing an AI-based Interactive Chatbot for the Department of Justice Website.
 
-Background:
-
+**Background:**
 The Department of Justice (DoJ), functioning under the Ministry of Law & Justice, Government of India, is tasked with a diverse array of responsibilities, including:
 
-Implementation of judicial infrastructure development schemes.
+**Implementation of judicial infrastructure development schemes.**
+- Establishment of Fast Track Special Courts for expeditious resolution of sensitive cases.
+- Oversight of the eCourts Project, aimed at the digitization of court systems nationwide.
+- Provision of legal aid to marginalized populations to ensure equitable access to justice.
 
-Establishment of Fast Track Special Courts for expeditious resolution of sensitive cases.
+**Description:** The chatbot is designed to address user queries across a range of topics, including:
+- Information on the organizational divisions of the DoJ.
+- Data on the appointment of judges across various court tiers and associated vacancies.
+- Pendency statistics sourced from the National Judicial Data Grid (NJDG).
+- Procedures for eFiling, ePay, and availing Tele-Law Services.
+- Guidelines for paying traffic violation fines.
+- Steps for downloading the eCourts Services Mobile App.
+- Access to live streaming of court cases.
 
-Oversight of the eCourts Project, aimed at the digitization of court systems nationwide.
+**Expected Solution:** The solution encompasses the creation of a scalable, AI-based chatbot capable of:
+- Comprehending and responding accurately to user queries.
+- Adapting over time through continuous learning mechanisms.
+- Efficiently managing extensive datasets to support future enhancements.
+- Technical Architecture
+- The chatbot utilizes a fine-tuned GPT-2 model, configured for specialized tasks:
+- Primary Query Analysis Model:
+- Functions as a dispatcher, routing user queries to the appropriate sub-models for precise responses.
 
-Provision of legal aid to marginalized populations to ensure equitable access to justice.
+**Sub-Models:**
+**Question-Answering Model:** Handles domain-specific inquiries, such as judiciary statistics and procedural information.
 
-Description:
+**Future Expansion Models:** Designed to integrate advanced functionalities, including legal document summarization and procedural workflows.
 
-The chatbot is designed to address user queries across a range of topics, including:
+**Features**
+**Dynamic Query Resolution:** Provides nuanced, domain-relevant responses to diverse user queries.
 
-Information on the organizational divisions of the DoJ.
+**Modular Scalability:** Facilitates seamless incorporation of additional sub-models for enhanced functionality.
 
-Data on the appointment of judges across various court tiers and associated vacancies.
+**Robust Data Processing:** Ensures efficient handling and analysis of large-scale datasets.
 
-Pendency statistics sourced from the National Judicial Data Grid (NJDG).
+**Progressive Learning:** Continuously improves through user feedback and updated datasets.
 
-Procedures for eFiling, ePay, and availing Tele-Law Services.
-
-Guidelines for paying traffic violation fines.
-
-Steps for downloading the eCourts Services Mobile App.
-
-Access to live streaming of court cases.
-
-Expected Solution:
-
-The solution encompasses the creation of a scalable, AI-based chatbot capable of:
-
-Comprehending and responding accurately to user queries.
-
-Adapting over time through continuous learning mechanisms.
-
-Efficiently managing extensive datasets to support future enhancements.
-
-Technical Architecture
-
-The chatbot utilizes a fine-tuned GPT-2 model, configured for specialized tasks:
-
-Primary Query Analysis Model:
-
-Functions as a dispatcher, routing user queries to the appropriate sub-models for precise responses.
-
-Sub-Models:
-
-Question-Answering Model: Handles domain-specific inquiries, such as judiciary statistics and procedural information.
-
-Future Expansion Models: Designed to integrate advanced functionalities, including legal document summarization and procedural workflows.
-
-Features
-
-Dynamic Query Resolution:
-
-Provides nuanced, domain-relevant responses to diverse user queries.
-
-Modular Scalability:
-
-Facilitates seamless incorporation of additional sub-models for enhanced functionality.
-
-Robust Data Processing:
-
-Ensures efficient handling and analysis of large-scale datasets.
-
-Progressive Learning:
-
-Continuously improves through user feedback and updated datasets.
-
-Installation
-
-Prerequisites:
-
-Python 3.8 or higher.
-
-Virtual Environment (recommended for dependency isolation).
-
-GPU configuration for model training (if further fine-tuning is required).
-
-Installation Steps:
-
-Clone the Repository:
-
-git clone https://github.com/your-username/DoJ-Chatbot.git
-cd DoJ-Chatbot
-
-Set Up Virtual Environment:
-
-python3 -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-
-Install Required Dependencies:
-
-pip install -r requirements.txt
-
-Obtain Pretrained Models:
-
-Place the fine-tuned GPT-2 models in the models/ directory.
-
-Launch the Chatbot:
-
-python main.py
-
-Usage
-
-Open the chatbot interface (default: http://localhost:5000).
-
-Input queries, and the system will provide detailed, context-appropriate responses.
-
-For complex questions, the primary model delegates tasks to relevant sub-models for efficient processing.
 
 Future Scope
 
