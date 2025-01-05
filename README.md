@@ -65,9 +65,10 @@ Submit a pull request for review.
 
 
 **Contact**
+
 For further inquiries, please contact:
-**Name:** Nancy Kaim
-**Email:** nancykaim7@gmail.com
+- **Name:** Nancy Kaim
+- **Email:** nancykaim7@gmail.com
 
 _**Acknowledgments**_
 The Department of Justice, India, for articulating the problem statement.
