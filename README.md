@@ -1,4 +1,4 @@
-**Department of Justice (DoJ) Chatbot**
+_**Department of Justice (DoJ) Chatbot**_
 
 **Project Overview**
 
@@ -35,69 +35,41 @@ The Department of Justice (DoJ), functioning under the Ministry of Law & Justice
 - Functions as a dispatcher, routing user queries to the appropriate sub-models for precise responses.
 
 **Sub-Models:**
-**Question-Answering Model:** Handles domain-specific inquiries, such as judiciary statistics and procedural information.
-
-**Future Expansion Models:** Designed to integrate advanced functionalities, including legal document summarization and procedural workflows.
+- **Question-Answering Model:** Handles domain-specific inquiries, such as judiciary statistics and procedural information.
+- **Future Expansion Models:** Designed to integrate advanced functionalities, including legal document summarization and procedural workflows.
 
 **Features**
-**Dynamic Query Resolution:** Provides nuanced, domain-relevant responses to diverse user queries.
-
-**Modular Scalability:** Facilitates seamless incorporation of additional sub-models for enhanced functionality.
-
-**Robust Data Processing:** Ensures efficient handling and analysis of large-scale datasets.
-
-**Progressive Learning:** Continuously improves through user feedback and updated datasets.
+- **Dynamic Query Resolution:** Provides nuanced, domain-relevant responses to diverse user queries.
+- **Modular Scalability:** Facilitates seamless incorporation of additional sub-models for enhanced functionality.
+- **Robust Data Processing:** Ensures efficient handling and analysis of large-scale datasets.
+- **Progressive Learning:** Continuously improves through user feedback and updated datasets.
 
 
-Future Scope
+_**Future Scope**_
+- Enhanced NLP Functionalities:
+- Automatic summarization of legal documents.
+- Context-driven recommendations tailored to user profiles.
+- Voice Interaction Features:
+- Integration of speech-to-text and text-to-speech capabilities.
+- Regional Language Support:
+- Multilingual capabilities to cater to diverse linguistic demographics in India.
+- Direct NJDG Integration:
+- Real-time updates on case statuses and judicial statistics.
 
-Enhanced NLP Functionalities:
-
-Automatic summarization of legal documents.
-
-Context-driven recommendations tailored to user profiles.
-
-Voice Interaction Features:
-
-Integration of speech-to-text and text-to-speech capabilities.
-
-Regional Language Support:
-
-Multilingual capabilities to cater to diverse linguistic demographics in India.
-
-Direct NJDG Integration:
-
-Real-time updates on case statuses and judicial statistics.
-
-Contributing
-
+_**Contributing**_
 We welcome contributions to the project! To contribute:
-
 Fork the repository.
-
 Create a new branch for your proposed feature or bugfix.
-
 Commit your changes with detailed messages.
-
 Submit a pull request for review.
 
-License
 
-This project is licensed under the MIT License. Please refer to the LICENSE file for full details.
-
-Contact
-
+**Contact**
 For further inquiries, please contact:
+**Name:** Nancy Kaim
+**Email:** nancykaim7@gmail.com
 
-Name: Nancy
-
-Email: your-email@example.com
-
-GitHub: your-username
-
-Acknowledgments
-
+_**Acknowledgments**_
 The Department of Justice, India, for articulating the problem statement.
-
 Open-source communities and the developers of GPT-2 for enabling the foundation of this project.
 
